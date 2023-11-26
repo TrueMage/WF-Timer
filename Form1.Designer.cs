@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             timer1 = new System.Windows.Forms.Timer(components);
             labelTimer = new Label();
             buttonNY = new Button();
@@ -45,43 +46,27 @@
             // 
             // labelTimer
             // 
-            labelTimer.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelTimer.Location = new Point(9, 0);
-            labelTimer.Margin = new Padding(10, 0, 10, 0);
+            resources.ApplyResources(labelTimer, "labelTimer");
             labelTimer.Name = "labelTimer";
-            labelTimer.Size = new Size(432, 59);
-            labelTimer.TabIndex = 1;
-            labelTimer.Text = "labelTimer";
-            labelTimer.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // buttonNY
             // 
-            buttonNY.Enabled = false;
-            buttonNY.Location = new Point(12, 62);
+            resources.ApplyResources(buttonNY, "buttonNY");
             buttonNY.Name = "buttonNY";
-            buttonNY.Size = new Size(139, 52);
-            buttonNY.TabIndex = 2;
-            buttonNY.Text = "New Year";
             buttonNY.UseVisualStyleBackColor = true;
             buttonNY.Click += buttonNY_Click;
             // 
             // buttonBD
             // 
-            buttonBD.Location = new Point(157, 62);
+            resources.ApplyResources(buttonBD, "buttonBD");
             buttonBD.Name = "buttonBD";
-            buttonBD.Size = new Size(139, 52);
-            buttonBD.TabIndex = 3;
-            buttonBD.Text = "Birthday";
             buttonBD.UseVisualStyleBackColor = true;
             buttonBD.Click += buttonBD_Click;
             // 
             // buttonWF
             // 
-            buttonWF.Location = new Point(302, 62);
+            resources.ApplyResources(buttonWF, "buttonWF");
             buttonWF.Name = "buttonWF";
-            buttonWF.Size = new Size(139, 52);
-            buttonWF.TabIndex = 4;
-            buttonWF.Text = "WinForms";
             buttonWF.UseVisualStyleBackColor = true;
             buttonWF.Click += buttonWF_Click;
             // 
@@ -93,15 +78,14 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(451, 126);
             Controls.Add(buttonWF);
             Controls.Add(buttonBD);
             Controls.Add(buttonNY);
             Controls.Add(labelTimer);
             Name = "Form1";
-            Text = "Form1";
+            InputLanguageChanged += Form1_InputLanguageChanged;
             ResumeLayout(false);
         }
 

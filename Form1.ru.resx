@@ -117,151 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelTimer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="labelTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelTimer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 0, 10, 0</value>
-  </data>
-  <data name="labelTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 59</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelTimer.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="labelTimer.Text" xml:space="preserve">
-    <value>Loading...</value>
-  </data>
-  <data name="labelTimer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;labelTimer.Name" xml:space="preserve">
-    <value>labelTimer</value>
-  </data>
-  <data name="&gt;&gt;labelTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTimer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelTimer.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonNY.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="buttonNY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 62</value>
-  </data>
-  <data name="buttonNY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 52</value>
-  </data>
-  <data name="buttonNY.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>Загрузка...</value>
   </data>
   <data name="buttonNY.Text" xml:space="preserve">
-    <value>New Year</value>
-  </data>
-  <data name="&gt;&gt;buttonNY.Name" xml:space="preserve">
-    <value>buttonNY</value>
-  </data>
-  <data name="&gt;&gt;buttonNY.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonNY.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonNY.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="buttonBD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 62</value>
-  </data>
-  <data name="buttonBD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 52</value>
-  </data>
-  <data name="buttonBD.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>Новый год</value>
   </data>
   <data name="buttonBD.Text" xml:space="preserve">
-    <value>Birthday</value>
-  </data>
-  <data name="&gt;&gt;buttonBD.Name" xml:space="preserve">
-    <value>buttonBD</value>
-  </data>
-  <data name="&gt;&gt;buttonBD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonBD.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonBD.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="buttonWF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>302, 62</value>
-  </data>
-  <data name="buttonWF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 52</value>
-  </data>
-  <data name="buttonWF.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="buttonWF.Text" xml:space="preserve">
-    <value>WinForms</value>
-  </data>
-  <data name="&gt;&gt;buttonWF.Name" xml:space="preserve">
-    <value>buttonWF</value>
-  </data>
-  <data name="&gt;&gt;buttonWF.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonWF.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonWF.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>118, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>451, 126</value>
+    <value>День рождения</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
-    <value>timer1</value>
-  </data>
-  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timer2.Name" xml:space="preserve">
-    <value>timer2</value>
-  </data>
-  <data name="&gt;&gt;timer2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

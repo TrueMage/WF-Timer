@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace WF_Timer
 {
     public partial class Form1 : Form
@@ -47,6 +49,13 @@ namespace WF_Timer
         private void timer2_Tick(object sender, EventArgs e)
         {
             this.Text = (Convert.ToInt32(this.Text) + timer2.Interval).ToString();
+        }
+
+        private void Form1_InputLanguageChanged(object sender, InputLanguageChangedEventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = e.Culture;
+            Controls.Clear();
+            InitializeComponent();
         }
     }
 }
